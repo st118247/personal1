@@ -27,13 +27,13 @@
 		<div class="container">
 			<header class="group top-nav">
 				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">DRACO</span>
+				    <span class="logo">Spaxx</span>
 				</div>
 			    <nav id="navbar-1" class="navbar item-nav">
 				    <ul>
 				        <li class="active"><a href="#about">About</a></li>
 				        <li><a href="#experiences">Experiences</a></li>
-				        <li><a href="#achievements">Achievements</a></li>
+				        <!-- <li><a href="#achievements">Achievements</a></li> -->
 				        <li><a href="#skills">Skills</a></li>
 				    </ul>
 				</nav>
@@ -51,25 +51,32 @@
 
 				</div>
 				<div class="unit-80">
-					<h1>I live in<br><span id="typed"></span></h1>					
+					<h1>I<br><span id="typed"></span></h1>					
 				</div>
 				<p>
+					I love to analyze data and build models. Data visualization and prediction is my passion. Building the web is a desire. Analytics is the future.
+				</p>
+<!-- 				<p>
 					Draco is a constellation in the far northern sky. Its name is Latin for dragon. Draco is circumpolar (that is, never setting) for many observers in the northern hemisphere. It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy. 
-				</p>				
+				</p>				 -->
 			</div>
 		</div>
 	</div>
-
+	<hr>
 	<!-- Work Experience -->
 	<div class="work section second" id="experiences">
 		<div class="container">
-			<h1>Work<br>Experiences</h1>
+			<h1>Work Experiences</h1>
 			<ul class="work-list">
-				<li>2014-2015</li>
-				<li><a href="#">PT Traveloka Indonesia</a></li>
-				<li>Web Designer</li>
+				<li>2009-2015</li>
+				<li><a href="#">Tata Consultancy Services</a></li>
+				<li>IT Analyst</li>
+				<ul class="work-list">
+					<li>Banking and Finance : RBS Royal Bank of Scotland </li>
+					<li>Banking and Finance : NBS Nationwide Building Society </li>
+				</ul>
 			</ul>
-			<ul class="work-list">
+<!-- 			<ul class="work-list">
 				<li>2014-2015</li>
 				<li><a href="#">Wego</a></li>
 				<li>UI/UX Designer</li>
@@ -78,12 +85,12 @@
 				<li>2014-2015</li>
 				<li><a href="#">Garuda Indonesia</a></li>
 				<li>System Designer</li>
-			</ul>
+			</ul> -->
 		</div>
 	</div>
 
 	<!-- Award & Achievements -->
-	<div class="award section second" id="achievements">
+<!-- 	<div class="award section second" id="achievements">
 		<div class="container">
 			<h1>Award &amp;<br>Achievements</h1>
 			<ul class="award-list list-flat">
@@ -103,23 +110,31 @@
 				<li>United multiple teams post-merger</li>
 			</ul>
 		</div>
-	</div>
-
+	</div> -->
+	<hr>
 	<!-- Technical Skills -->
 	<div class="skills section second" id="skills">
 		<div class="container">
-			<h1>Technical<br>Skills</h1>
+			<h1>Technical Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Analytics Technology</li>
+				<li>KNIME , QlikView , Microstrategy , RapidMiner , Weka</li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Programming Technology</li>
+				<li>R , Python , Advanced Excel , Excel Macros , VB , Cobol , SQL , JCL </li>
+			</ul>
 			<ul class="skill-list list-flat">
 				<li>Web Technology</li>
-				<li>HTML / CSS / SASS / PHP / Javascript</li>
+				<li>HTML , CSS , PHP , Javascript , Ruby </li>
 			</ul>
 			<ul class="skill-list list-flat">
 				<li>Database</li>
-				<li>MySQL / MongoDB / Oracle / Access</li>
+				<li>MySQL , MongoDB , Oracle , MS Access , DB2 </li>
 			</ul>
 			<ul class="skill-list list-flat">
 				<li>Framework</li>
-				<li>Laravel / CodeIgniter / Zend / Ruby On Rails</li>
+				<li>Ruby On Rails</li>
 			</ul>
 		</div>
 	</div>
@@ -127,7 +142,7 @@
 	<!-- Quote -->
 	<div class="quote">
 		<div class="container text-centered">
-			<h1>fight against the ugliness.</h1>
+			<h1>peace is within</h1>
 		</div>
 	</div>
 
@@ -135,14 +150,14 @@
 		<div class="container">
 			<div class="units-row">
 			    <div class="unit-50">
-			    	<p>Handcrafted by Afnizar Nur Ghifari</p>
+			    	<p>Handcrafted by Parth Sarangi</p>
 			    </div>
 			    <div class="unit-50">
 					<ul class="social list-flat right">
-						<li><a href="mailto:afnizarhilmi@gmail.com"><i class="fa fa-send"></i></a></li>
-						<li><a href="http://twitter.com/flamekaizar"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="mailto:parth.sarangi@gmail.com"><i class="fa fa-send"></i></a></li>
+<!-- 						<li><a href="http://twitter.com/flamekaizar"><i class="fa fa-twitter"></i></a></li>
 						<li><a href="http://dribbble.com/flamekaizar"><i class="fa fa-dribbble"></i></a></li>
-						<li><a href="http://behance.com/flamekaizar"><i class="fa fa-behance"></i></a></li>
+						<li><a href="http://behance.com/flamekaizar"><i class="fa fa-behance"></i></a></li> -->
 					</ul>
 			    </div>
 			</div>
@@ -159,7 +174,7 @@
 		function newTyped(){}$(function(){$("#typed").typed({
 		// Change to edit type effect
 		//strings: ["far northern sky", "your galaxy", "everywhere"],
-		strings: ["Bangkok", "Asian Institute of Technology"],
+		strings: ["Live in Bangkok","Study at Asian Institute of Technology"],
 		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
     </script>
 
